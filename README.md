@@ -12,11 +12,11 @@
 
 * 进入项目文件夹,安装
 
-   	如果没有安装 `cnpm`, 先使用如下方式安装 `cnpm`
+   	如果没有安装cnpm, 先使用如下方式安装 `cnpm`
      ```
     npm install -g cnpm --registry=https://registry.npm.taobao.org
      ```
-    cnpm安装成功后，安装express
+    cnpm安装成功后，安装`express`
      ```
     cnpm install express
     ```
@@ -28,4 +28,7 @@
     node server.js
      ```
 
-* 在浏览器地址栏访问` http://127.0.0.1:9798/index.html `
+* 在浏览器地址栏访问
+ 	```
+	http://127.0.0.1:9798/index.html
+	```
