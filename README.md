@@ -11,7 +11,7 @@
     git clone https://github.com/alilealile/lucky-home.git
     ```
 
-* 进入项目文件夹,安装依赖
+* 进入项目文件夹, 安装依赖
 
    如果没有安装cnpm, 建议安装 `cnpm`，方法如下
      ```
