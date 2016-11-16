@@ -1,0 +1,29 @@
+{
+  "name": "lucky-home",
+  "version": "1.0.0",
+  "description": "安家安吉是一个房产项目，为不同身份用户提供不同操作，服务方可以发布需求，需求方可以进行资源搜索。 \r 用户可以发布房源，搜索房源，预约看房，接受订单，信息通知，个人资料，历史交易，房源收藏等。",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alilealile/lucky-home.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alilealile/lucky-home/issues"
+  },
+  "homepage": "https://github.com/alilealile/lucky-home#readme",
+  "devDependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^2.0.0"
+  }
+}
