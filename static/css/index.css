@@ -22,7 +22,7 @@
 	display: block;
 	height:50px ;
 	width: 50px;
-	background: url("../images/login/nav_back_icon@2x.png") no-repeat 0 center;
+	background: url("../img/login/nav_back_icon@2x.png") no-repeat 0 center;
 	background-size:12px;
 }
 
@@ -41,11 +41,11 @@
 }
 
 .swiper-pagination-bullet{
-	background: url("../images/index/banner_icon_point_nor@2x.png");
+	background: url("../img/index/banner_icon_point_nor@2x.png");
 	opacity: 1;background-size: cover;
 }
 .swiper-pagination-bullet-active{
-	 background: url("../images/index/banner_icon_point_press@2x.png");
+	 background: url("../img/index/banner_icon_point_press@2x.png");
 	background-size: cover;
 }
 
@@ -68,7 +68,7 @@
 	float: left;
 	width:20px;
 	height: 30px;
-	background: url("../images/index/nav_icon_down@2x.png") no-repeat center;
+	background: url("../img/index/nav_icon_down@2x.png") no-repeat center;
 	background-size: 10px;
 }
 
@@ -90,7 +90,7 @@
 	display: inline-block;
 	width: 33px;
 	height: 33px;
-	background:url("../images/index/banner_icon_search@2x.png") no-repeat center;
+	background:url("../img/index/banner_icon_search@2x.png") no-repeat center;
 	background-size: 13px;
 	vertical-align: bottom;
 }
@@ -132,7 +132,7 @@
 	display: block;
 	width: 100%;
 	height: 10px;
-	background:url("../images/index/content_icon022_nor@2x.png") no-repeat center;
+	background:url("../img/index/content_icon022_nor@2x.png") no-repeat center;
 	background-size: 7px;
 	vertical-align: bottom;
 }
@@ -140,11 +140,11 @@
 	display: inline-block;
 	width:100%;
 	height: 30px;
-	background:url("../images/index/content_icon01_nor@2x.png") no-repeat center;
+	background:url("../img/index/content_icon01_nor@2x.png") no-repeat center;
 	background-size: 18px;
 }
 .contain-nav-li .icon-money-click{
-	background:url("../images/index/content_icon01_down@2x.png") no-repeat center;
+	background:url("../img/index/content_icon01_down@2x.png") no-repeat center;
 	background-size: 18px;
 }
 
@@ -188,11 +188,11 @@
 }
 .contain-love{
 	float: right;width: 14px;height: 21px;
-	background: url("../images/index/collect_icon_nor@2x.png") no-repeat center;
+	background: url("../img/index/collect_icon_nor@2x.png") no-repeat center;
 	background-size: contain;
 }
 .contain-ul .contain-love-active{
-	background: url("../images/index/collect_icon_press@2x.png") no-repeat center;
+	background: url("../img/index/collect_icon_press@2x.png") no-repeat center;
 	background-size: contain;
 }
 .contain-ul li{
@@ -264,24 +264,24 @@
 
 }
 .footer-nav .icon-footer1{
-	 background:url("../images/footer-nav/bottom_nor_icon04@2x.png") no-repeat center;
+	 background:url("../img/footer-nav/bottom_nor_icon04@2x.png") no-repeat center;
 	 background-size: 22px;
  }
 .footer-nav .icon-footer2{
-	background:url("../images/footer-nav/bottom_nor_icon03@2x.png") no-repeat center;
+	background:url("../img/footer-nav/bottom_nor_icon03@2x.png") no-repeat center;
 	background-size: 22px;
 }
 .footer-nav .icon-footer4{
-	background:url("../images/footer-nav/bottom_nor_icon02@2x.png") no-repeat center;
+	background:url("../img/footer-nav/bottom_nor_icon02@2x.png") no-repeat center;
 	background-size: 22px;
 }
 .footer-nav .icon-footer5{
-	background:url("../images/footer-nav/bottom_nor_icon01@2x.png") no-repeat center;
+	background:url("../img/footer-nav/bottom_nor_icon01@2x.png") no-repeat center;
 	background-size: 22px;
 }
 .footer-nav .icon-footer3{
 	height: 50px;
-	background:url("../images/footer-nav/bottom_icon05@2x.png") no-repeat center;
+	background:url("../img/footer-nav/bottom_icon05@2x.png") no-repeat center;
 	background-size: 44px;
 
 }
@@ -323,7 +323,7 @@
 /*点击样式*/
 /*点击后导航栏的样式*/
 .contain-nav-li .icon-nav-click{
-			background:url("../images/index/content_icon02_press@2x.png") no-repeat center;
+			background:url("../img/index/content_icon02_press@2x.png") no-repeat center;
 			background-size: 7px;
 		}
 .contain-nav-li .span-active{
@@ -419,16 +419,16 @@
 	height:245px;
 }
 .return-bg1{
-	background: url("../images/building-detail/nav_back_icon@2x.png") no-repeat 10px center;
+	background: url("../img/building-detail/nav_back_icon@2x.png") no-repeat 10px center;
 	background-size: 15px;
 }
 .contain-love2{
 	float: right;width: 50px;height: 50px;
-	background: url("../images/building-detail/nav_collect_nor_icon@2x.png") no-repeat center;
+	background: url("../img/building-detail/nav_collect_nor_icon@2x.png") no-repeat center;
 	background-size: 25px;
 }
 .contain-love2-active{
-	background: url("../images/building-detail/nav_collect_press_icon@2x.png") no-repeat center;
+	background: url("../img/building-detail/nav_collect_press_icon@2x.png") no-repeat center;
 	background-size: 25px;
 }
 .detial-top{
@@ -472,7 +472,7 @@
 	float: left;
 	width:30%;
 	height:83px;
-	background: url("../images/building-detail/content_icon_map@2x.png") no-repeat center top;
+	background: url("../img/building-detail/content_icon_map@2x.png") no-repeat center top;
 	color: #a8a9ae;
 }
 .more-house li:nth-child(odd){
@@ -495,7 +495,7 @@
 	font-size: 14px;
 }
 .house-bg{
-	background: url("../images/building-detail/content_img_home01@2x.png") no-repeat 10px center;
+	background: url("../img/building-detail/content_img_home01@2x.png") no-repeat 10px center;
 }
 .main-more{
 	padding: 5px 0;
@@ -596,19 +596,19 @@
 
 /*底部点击样式*/
 .footer-nav-li .icon-footer-click1{
-	background:url("../images/footer-nav/bottom_press_icon04@2x.png") no-repeat center;
+	background:url("../img/footer-nav/bottom_press_icon04@2x.png") no-repeat center;
 	background-size: 22px;
 }
 .footer-nav-li .icon-footer-click2{
-	background:url("../images/footer-nav/bottom_press_icon03@2x.png") no-repeat center;
+	background:url("../img/footer-nav/bottom_press_icon03@2x.png") no-repeat center;
 	background-size: 22px;
 }
 .footer-nav-li .icon-footer-click4{
-	background:url("../images/footer-nav/bottom_press_icon02@2x.png") no-repeat center;
+	background:url("../img/footer-nav/bottom_press_icon02@2x.png") no-repeat center;
 	background-size: 22px;
 }
 .footer-nav-li .icon-footer-click5{
-	background:url("../images/footer-nav/bottom_press_icon01@2x.png") no-repeat center;
+	background:url("../img/footer-nav/bottom_press_icon01@2x.png") no-repeat center;
 	background-size: 22px;
 }
 

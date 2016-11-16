@@ -3,7 +3,7 @@
 	display: block;
 	height:50px ;
 	width: 50px;
-	background: url("../images/my/nav_set_icon@2x.png") no-repeat center;
+	background: url("../img/my/nav_set_icon@2x.png") no-repeat center;
 	background-size:18px;
 }
 .my-boxall{
@@ -15,7 +15,7 @@
 	display: block;
 	height:24px ;
 	width: 50px;
-	background: url("../images/my/log in_right_icon@2x.png") no-repeat right center;
+	background: url("../img/my/log in_right_icon@2x.png") no-repeat right center;
 	background-size:12px;
 }
 .mylogin-right2{
@@ -64,27 +64,27 @@
 	line-height: 64px;
 }
 .my-box-ul>li:nth-child(2){
-	background: url("../images/my/content_list_icon01@2x.png") no-repeat 12px;
+	background: url("../img/my/content_list_icon01@2x.png") no-repeat 12px;
 	background-size:18px;
 	background-color: #ffffff;
 }
 .my-box-ul>li:nth-child(3){
-	background: url("../images/my/content_list_icon02@2x.png") no-repeat 12px;
+	background: url("../img/my/content_list_icon02@2x.png") no-repeat 12px;
 	background-size:18px;
 	background-color: #ffffff;
 }
 .my-box-ul>li:nth-child(4){
-	background: url("../images/my/content_list_icon05@2x.png") no-repeat 12px;
+	background: url("../img/my/content_list_icon05@2x.png") no-repeat 12px;
 	background-size:18px;
 	background-color: #ffffff;
 }
 .my-box-ul>li:nth-child(5){
-	background: url("../images/my/content_list_icon03@2x.png") no-repeat 12px;
+	background: url("../img/my/content_list_icon03@2x.png") no-repeat 12px;
 	background-size:18px;
 	background-color: #ffffff;
 }
 .my-box-ul>li:nth-child(6){
-	background: url("../images/my/content_list_icon04@2x.png") no-repeat 12px;
+	background: url("../img/my/content_list_icon04@2x.png") no-repeat 12px;
 	background-size:18px;
 	background-color: #ffffff;
 }
@@ -156,21 +156,21 @@
 }
 
 .id_bg{
-	background: url("../images/login/content_ID_icon@2x.png") no-repeat 0 center ;
+	background: url("../img/login/content_ID_icon@2x.png") no-repeat 0 center ;
 	background-size: 16px;
 }
 
 .password_bg{
-	background: url("../images/login/content_password_icon@2x.png") no-repeat 0 center ;
+	background: url("../img/login/content_password_icon@2x.png") no-repeat 0 center ;
 	background-size: 15px;
 }
 .identy_bg{
 	width: 27%;
-	background: url("../images/login/content_verify_icon@2x.png") no-repeat 0 center ;
+	background: url("../img/login/content_verify_icon@2x.png") no-repeat 0 center ;
 	background-size: 12px;
 }
 .identity_bg{
-	background: url("../images/login/content_position_icon@2x.png") no-repeat 0 center ;
+	background: url("../img/login/content_position_icon@2x.png") no-repeat 0 center ;
 	background-size: 18px;
 }
 .label-last{
@@ -189,7 +189,7 @@
 	display: block;
 	width: 65px;
 	height: 25px;
-	background:url("../images/index/content_icon022_nor@2x.png") no-repeat bottom center;
+	background:url("../img/index/content_icon022_nor@2x.png") no-repeat bottom center;
 	background-size: 10px;
 	vertical-align: bottom;
 }
@@ -382,7 +382,7 @@
 }
 .person-span3{
 	width: 10%;
-	background: url("../images/my/log in_right_icon@2x.png") no-repeat center;
+	background: url("../img/my/log in_right_icon@2x.png") no-repeat center;
 	background-size: 8px;
 }
 .set-up-box{
@@ -398,7 +398,7 @@
 	display: block;
 	height:24px ;
 	width: 6rem;
-	background: url("../images/my/log in_right_icon@2x.png") no-repeat right center;
+	background: url("../img/my/log in_right_icon@2x.png") no-repeat right center;
 	background-size:12px;
 	color: #979797;
 }

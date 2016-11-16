@@ -197,7 +197,7 @@ $(".btnclick" ).click(function(){
 		clearTimeout(time);
 	}
 
-	
+
 	var id=$(this ).data("target-id")+"-nav";
 	$("#"+id ).siblings().removeClass("footer-nav-li");
 	$("#"+id ).addClass("footer-nav-li");

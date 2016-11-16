@@ -117,7 +117,7 @@
 .order-time{
 	float: right;
 	padding-left: 14px;
-	background: url("../images/booking/content_icon@2x.png") no-repeat 0 5px;
+	background: url("../img/booking/content_icon@2x.png") no-repeat 0 5px;
 	background-size: 10px;
 }
 .order-text1{
@@ -190,11 +190,11 @@
 	flex:1;
 }
 .cancelpeople-li1{
-	background: url("../images/booking-detail/content_img_user@2x.png") no-repeat center;
+	background: url("../img/booking-detail/content_img_user@2x.png") no-repeat center;
 	background-size: 40px;
 }
 .cancel-telephone{
-	background: url("../images/booking-detail/content_icon_call@2x.png") no-repeat center;
+	background: url("../img/booking-detail/content_icon_call@2x.png") no-repeat center;
 	background-size: 20px;
 }
 
@@ -306,7 +306,7 @@
 	display: inline-block;
 	width: 20px;
 	height:50px;
-	background: url("../images/release/publish_close_icon@2x.png") no-repeat center;
+	background: url("../img/release/publish_close_icon@2x.png") no-repeat center;
 	background-size: 14px;
 }
 .release-all{
@@ -327,11 +327,11 @@
 
 }
 .release1{
-	background: url("../images/release/publish_btn02@2x.png") no-repeat 45px 0;
+	background: url("../img/release/publish_btn02@2x.png") no-repeat 45px 0;
 	background-size: 94px;
 }
 .release2{
-	background: url("../images/release/publish_btn01@2x.png") no-repeat 45px 0;
+	background: url("../img/release/publish_btn01@2x.png") no-repeat 45px 0;
 	background-size: 94px;
 }
 .introduced-need-all{
@@ -406,7 +406,7 @@
 	box-sizing: border-box;
 	padding-left:25px;
 	font-size:14px;
-	background: url("../images/release-house/content_plus_icon@2x.png") no-repeat 4px center;
+	background: url("../img/release-house/content_plus_icon@2x.png") no-repeat 4px center;
 	background-size: 12px;
 }
 .houseall-infor{
@@ -427,7 +427,7 @@
 }
 .building-icon{
 	padding-left: 12px;
-	background: url("../images/release-house/content_press_icon@2x.png") no-repeat 0 center;
+	background: url("../img/release-house/content_press_icon@2x.png") no-repeat 0 center;
 	background-size: 6px;
 	color: #3a3a3a;
 }
@@ -450,7 +450,7 @@
 	text-align: center;
 	line-height:17px;
 	font-size: 0.8rem;
-	background: url("../images/release-house/content_nor_icon@2x.png") no-repeat 6px center;
+	background: url("../img/release-house/content_nor_icon@2x.png") no-repeat 6px center;
 	background-size: 6px;
 }
 
@@ -517,11 +517,11 @@
 	line-height: 30px;
 	font-size: 0.8rem;
 	box-sizing: border-box;
-	background: url("../images/release-house/content_nor_icon@2x.png") no-repeat 6px center;
+	background: url("../img/release-house/content_nor_icon@2x.png") no-repeat 6px center;
 	background-size: 6px;
 }
 .house-attr-active{
-	background: url("../images/release-house/content_press_icon@2x.png") no-repeat 6px center;
+	background: url("../img/release-house/content_press_icon@2x.png") no-repeat 6px center;
 	background-size: 6px;
 }
 
@@ -600,7 +600,7 @@
 	float: right;
 	width: 25px;
 	height: 30px;
-	background:url("../images/release-house/content_list_icon01@2x.png") no-repeat center;
+	background:url("../img/release-house/content_list_icon01@2x.png") no-repeat center;
 	background-size: 14px;
 }
 
