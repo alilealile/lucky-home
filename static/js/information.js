@@ -95,16 +95,16 @@ $(".contain-love2").click(function () {
 //选择是否现房，是否含发票
 $(".ischeck-bg").click(function () {
 
-	if($(this).hasClass("house-data-active")){
-		$(this).removeClass("house-data-active");
+	if($(this).hasClass("house-attr-active")){
+		$(this).removeClass("house-attr-active");
 	}else{
-		$(this).addClass("house-data-active");
+		$(this).addClass("house-attr-active");
 	}
 });
 //只能选唯一的
 $(".isonlycheck-bg").click(function () {
-	$(this).siblings().removeClass("house-data-active");
-	$(this).addClass("house-data-active");
+	$(this).siblings().removeClass("house-attr-active");
+	$(this).addClass("house-attr-active");
 
 });
 

@@ -197,12 +197,10 @@ $(".btnclick" ).click(function(){
 		clearTimeout(time);
 	}
 
-
-	if(id=="btn-login"||id =="no-login"){
-		var id=$(this ).data("target-id")+"-nav";
-		$("#"+id ).siblings().removeClass("footer-nav-li");
-		$("#"+id ).addClass("footer-nav-li");
-	}
+	
+	var id=$(this ).data("target-id")+"-nav";
+	$("#"+id ).siblings().removeClass("footer-nav-li");
+	$("#"+id ).addClass("footer-nav-li");
 
 
 	history.pushState({state: '#'+targetId}, targetId, '#'+targetId);
