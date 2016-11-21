@@ -118,63 +118,6 @@ $(".more-ul1 li").bind("click",function(){
 
 });
 
-//----------------------------------------
-
-
-
-
-
-//------------------------------------------------------------------------------------------------------
-/*$(".btnclick" ).click(function(){
-
-	var targetId=$(this ).data("target-id");
-	$( "body").children().removeClass("pageZindex");
-	$("#"+targetId ).addClass("pageZindex").scrollTop(0);
-
-	//返回顶部删掉
-	$(".footer" ).removeClass("upflow-footer" );
-
-	//接单按钮点击后，子页面的确认
-	if($(this ).hasClass("click-changetext")){changtextHandler()}
-
-
-	if(targetId=="change-orderdata"){
-		$(".btn-changeorder" ).focus();
-	}
-	if(targetId=="introduced-need"){
-		$("#textareneed" ).focus();
-	}
-	//发布房源页面滚动条是0
-	if(targetId=="introduced-house"){
-		$(".houseall-infor").scrollTop(0);
-	}
-	$("input").val("");
-
-
-	/!*判断登录的*!/
-	var id=$(this).attr("id");
-	if(id=="btn-login"){
-		$(".no-login").css("display","none");
-		$(".yes-login").css("display","block");
-	}
-	if(id=="exit-login"){
-		$(".no-login").css("display","block");
-		$(".yes-login").css("display","none");
-	}
-
-	if($(this ).closest(".welcome-page")){
-		clearTimeout(time);
-	}
-
-
-	var id=$(this ).data("target-id")+"-nav";
-	$("#"+id ).siblings().removeClass("footer-nav-li");
-	$("#"+id ).addClass("footer-nav-li");
-
-
-	history.pushState({state: '#'+targetId}, targetId, '#'+targetId);
-
-
-});*/
+//----------------------------------
 
 

@@ -16,12 +16,7 @@ $(".information-nav li" ).click(function(){
 });
 
 //---------------------------------------
-/*1预约页面*/
-/*$(".contain-ul li" ).not(".contain-li4").click(function(){
-	var targetId=$(this ).parent().data("target-id");
-	$( this ).parents( ".footer" ).siblings().removeClass("pageZindex");
-	$("#"+targetId ).addClass("pageZindex");
-});*/
+
 
 // 点击接单
 $(".btn-order" ).click(function (e) {
