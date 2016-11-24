@@ -83,7 +83,7 @@ $(".contain-nav li" ).click(function(){
 	$(".contain-nav-select").stop().slideUp();
 
 	var id=$(this ).attr("id");
-	$("."+id ).stop().slideToggle(1000);
+	$("."+id ).stop().slideToggle();
 
 	if($(this).hasClass("contain-nav-li")){
 		$(this).removeClass("contain-nav-li");

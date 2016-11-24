@@ -23,7 +23,6 @@
 }
 
 .information-contain{
-	height: 120px;
 	margin: 10px 10px 0 10px;
 	border: 1px solid #d6d7dc ;
 	background: #ffffff;
@@ -37,8 +36,7 @@
 }
 .information-contain-li1 .title{
 	float: left;
-	font-weight: bold;
-	font-size: 13px;
+	font-size: 14px;
 }
 .information-contain-li2{
 	font-size: 12px;
@@ -48,11 +46,18 @@
 }
 .information-contain-li2 p{
 	text-indent: 2em;
+	font-size: 0.9rem;
+	line-height: 18px;
 }
 .inf-float{
 	font-size: 12px;
 	float: right;
 	color: #979797;
+}
+.inf-float2{
+	text-align: right;
+	float: none;
+
 }
 .click-all{
 	 width:100%;
@@ -68,20 +73,27 @@
 	color: #ffffff;
 	border-radius: 3px;
 }
-.information-contain .btn-basic{
+.btn-know{
 	width: 80px;
-	height:20px ;
+	height:25px ;
 	background-color: #efeff4;
-	line-height: 20px;
+	line-height: 25px;
 	text-align: center;
 	color: #646464;
 	text-indent:0;
-	border-radius: 5px;
 	font-size: 12px;
-	margin-top: 8px;
 }
 .information-contain .btn-center{
 	text-align: center;
+	padding-top:10px;
+	position: relative;
+}
+.inf-float3{
+	line-height: 25px;
+	position: absolute;
+	font-size: 0.9rem;
+	top:10px;
+	right:0;
 }
 	/*点击样式*/
 .information-nav .active{
@@ -322,7 +334,7 @@
 }
 .need-all-label{
 	margin:10px auto 0 auto;
-	width: 80%;
+	width: 88%;
 	display: block;
 	height:50px;
 	font-size: 18px;
@@ -401,6 +413,7 @@
 	margin-bottom: 12px;
 }
 .building-icon{
+	line-height: 2rem;
 	padding-left: 12px;
 	background: url("../img/release-house/content_press_icon@2x.png") no-repeat 0 center;
 	background-size: 6px;
@@ -410,6 +423,7 @@
 	margin-bottom: 10px;
 }
 .housetitle-attr  {
+	line-height: 2rem;
 	padding-left: 30px;
 	font-size: 0.9rem;
 }
@@ -420,7 +434,7 @@
 }
 .house-attr{
 	display: inline-block;
-	padding-left: 12px;
+	padding-left: 18px;
 	height:17px;
 	text-align: center;
 	line-height:17px;
@@ -439,6 +453,10 @@
 	float: left;
 	box-sizing: border-box;
 
+}
+.label-building2{
+	width:26%;
+	font-size: 0.9rem;
 }
 .txt-building{
 	flex:9;
@@ -485,7 +503,7 @@
 	padding: 5px;
 }
 .label-sourcebg{
-	padding-left: 12px;
+	padding-left: 16px;
 	float: left;
 	width: 30%;
 	height: 30px;
@@ -509,11 +527,15 @@
 	margin-left: 5%;
 }
 .add-pic-icon{
+	color:  #959695;
+	margin-top: 7px;
 	height: 50px;
-	font-size: 50px;
+	font-size: 40px;
 	line-height: 50px;
 }
 .add-pic-text{
+	color: #959695;
+	font-size: 12px;
 	height: 26px;
 }
 .house-btn{

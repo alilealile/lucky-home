@@ -59,7 +59,6 @@
         $("#"+targetId).siblings().css("display",'none');
     })
 
-    $($("input").focus())
 
 //选择身份
     $(".click-select").click(function () {

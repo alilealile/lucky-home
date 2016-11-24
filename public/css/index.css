@@ -192,11 +192,11 @@
 }
 .contain-love{
 	float: right;width: 30px;height: 30px;
-	background: url("../img/index/collect_icon_nor@2x.png") no-repeat center 0;
+	background: url("../img/index/collect_icon_nor@2x.png") no-repeat center 3px;
 	background-size: 14px;
 }
 .contain-love-active{
-	background: url("../img/index/collect_icon_press@2x.png") no-repeat center;
+	background: url("../img/index/collect_icon_press@2x.png") no-repeat center 3px;
 	background-size: 14px;
 }
 .contain-ul li{
@@ -513,13 +513,14 @@
 	margin: 10px 0;
 }
 .add-text{
-	font-size: 12px;
+	font-size: 0.9rem;
 	line-height: 29px;
 }
 .house-infor{
 	width:100%;
 }
 .house-describe{
+	line-height: 20px;
 	font-size: 14px;
 	color: #646464;
 	text-align: justify;
