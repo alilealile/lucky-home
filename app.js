@@ -12,8 +12,8 @@ var app = express();
 //app.use('/dev/public', express.static(__dirname + '/public'));
 
 //部署环境
-app.use('/', express.static(__dirname + '/static/views'))
-app.use('/public', express.static(__dirname + '/static/public'))
+app.use('/', express.static(__dirname + '/dist/views'))
+app.use('/public', express.static(__dirname + '/dist/public'))
 
 
 app.listen(16083, function(){
