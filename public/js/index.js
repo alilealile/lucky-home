@@ -80,10 +80,11 @@ $(".contain-love2").click(function () {
 $(".contain-nav li" ).click(function(){
 
 	$(this ).siblings().removeClass("contain-nav-li");
-	$(".contain-nav-select").stop().slideUp();
+
 
 	var id=$(this ).attr("id");
-	$("."+id ).stop().slideToggle();
+	$("."+id ).siblings().hide(0);
+	$("."+id ).toggle();
 
 	if($(this).hasClass("contain-nav-li")){
 		$(this).removeClass("contain-nav-li");
@@ -95,7 +96,7 @@ $(".contain-nav li" ).click(function(){
 $(".contain-nav-select li" ).click(function(){
 
 	if($(this ).parent().hasClass("contain-nav-li")){
-		$(this ).parent().stop().slideUp();
+		$(this ).parent().hide();/*stop().slideUp(0)*/
 		var id=$(this ).parent().data("target-id");
 		$("#"+id).removeClass("contain-nav-li");
 	}
@@ -107,14 +108,14 @@ $(function(){
 });
 /*更多 多层选择*/
 $(".all-more li" ).click(function(){
-	$(".contain-nav-select").stop().slideUp();
+	$(".contain-nav-select").hide();/*stop().slideUp(0)*/
 	$(".contain-nav li").removeClass("contain-nav-li");
 });
 $(".more-ul1 li").bind("click",function(){
 
 	var id=$(this ).data("target-id");
-	$("#"+id ).show();
-	$("#"+id ).siblings().hide();
+	$("#"+id ).show(0);
+	$("#"+id ).siblings().hide(0);
 
 });
 
