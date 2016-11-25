@@ -2,19 +2,26 @@
  * Created by Administrator on 2016/11/18.
  */
 
-(function ($) {
+/*window.onload=function(){
+    init();
+};
+function init() {
+    console.log(1);
+    console.log($("#welcome"));
+    $("#welcome").trigger("click");
+}*/
 
+
+(function ($) {
      $(function(){
          var doc=location.pathname.split('/');
          var index=doc.length-1;
          var targetId=doc[index];
          if(targetId=="index.html"){
-
              var time=setTimeout(function(){
                 $("#welcome").trigger("click");
             },3000);
         }
-
      });
 
     // 返回
@@ -90,5 +97,4 @@ window.onload = function(){
 
     $("#"+targetId).siblings().removeClass("footer-nav-li");
     $("#"+targetId).addClass("footer-nav-li");
-
 };
