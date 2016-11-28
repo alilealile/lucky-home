@@ -424,6 +424,13 @@
 	background: url("../img/building-detail/nav_collect_press_icon@2x.png") no-repeat center;
 	background-size: 25px;
 }
+.detail-img{
+	min-height: 285px;
+	background: #000000;
+}
+.booking-img{
+	min-height: 187px;
+}
 .detial-top{
 	position: relative;
 }
