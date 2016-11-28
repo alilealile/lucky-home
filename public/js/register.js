@@ -41,6 +41,15 @@ $(".get-code" ).click(function getcode(){
     }
 });
 
+$("#username" ).keyup(function(event){
+    var v=$(this).val();
+    v=v.replace(/[^\d]/g,"");
+    $(this).val(v);
+    if(v.length>10)
+    {
+        $(this).val( v.substring(0,10));
+    }
+});
 
 //登录验证
 $("#form-login input").keyup(checkloginform);

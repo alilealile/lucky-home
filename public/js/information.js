@@ -21,9 +21,22 @@ $(".information-nav li" ).click(function(){
 // 点击接单
 $(".btn-order" ).click(function (e) {
 	e.stopPropagation();
+    sessionStorage.change="haschange";
 	var target=$(this);
 	changtextHandler(target);
 });
+
+$(".click-changetext").click(function () {
+    sessionStorage.change="haschange";
+});
+
+/*改变文字，接单*/
+$(function () {
+    if(sessionStorage.change!==undefined){
+    	var target=$(".btn-order" );
+        changtextHandler(target);
+    }
+})
 
 //预约页，为接单的，点击接单按钮
 function changtextHandler(target) {

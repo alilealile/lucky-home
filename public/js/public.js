@@ -25,12 +25,15 @@
         var target=$(this);
         jumpPage(target);
 
+       /* 登录*/
         if($(this).attr("id")=="btn-login"){
             sessionStorage.user=$("#username").val();
         }
+        /*退出登录*/
         if($(this).attr("id")=="exit-login"){
             sessionStorage.clear();
         }
+
 
     });
 
@@ -108,6 +111,7 @@ window.onload = function(){
         $("#welcome").data("target-page","login");
         $("#welcome").data("target-doc","login");
     }
+
 
 
 };
