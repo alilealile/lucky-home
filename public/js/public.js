@@ -9,7 +9,6 @@
          var index=doc.length-1;
          var targetId=doc[index];
          if(targetId=="index.html"){
-
              var time=setTimeout(function(){
                 $("#welcome").trigger("click");
             },3000);
@@ -27,11 +26,15 @@
         jumpPage(target);
 
         if($(this).attr("id")=="btn-login"){
-            $(".no-login").css("display","none");
-            $(".no-login").sibling().css("display","block");
+            sessionStorage.user=$("#username").val();
+        }
+        if($(this).attr("id")=="exit-login"){
+            sessionStorage.clear();
         }
 
     });
+
+
     function jumpPage(target) {
         var targetPage=target.data("target-page");
         var targetDoc=target.data("target-doc");
@@ -90,5 +93,21 @@ window.onload = function(){
 
     $("#"+targetId).siblings().removeClass("footer-nav-li");
     $("#"+targetId).addClass("footer-nav-li");
+
+    if(sessionStorage.user!==undefined){
+        /*登录后的*/
+        $(".no-login").css("display","none");
+        $(".no-login").siblings().css("display","block");
+        $(".mybox-inf2").text(sessionStorage.user);
+
+        $("#welcome").data("target-page","home");
+        $("#welcome").data("target-doc","index");
+    }else{
+        $(".no-login").css("display","block");
+        $(".no-login").siblings().css("display","none");
+        $("#welcome").data("target-page","login");
+        $("#welcome").data("target-doc","login");
+    }
+
 
 };
